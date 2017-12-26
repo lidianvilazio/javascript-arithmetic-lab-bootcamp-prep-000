@@ -22,5 +22,5 @@ function dec(n) {
 }
 
 function preserveDecimal(n) {
-  return PARSEFLOAT(n)
+  return parseFloat(n)
 }
