@@ -22,3 +22,16 @@ function inc(n) {
 function dec(n) {
   return n - 1
 }
+
+function makeInt(n) {
+  if(isNan(parseInt(n)) {
+    return 0
+  } else {
+    return parseInt(n,10)  
+  }
+}
+
+
+function preserveDecimal(n) {
+  return PARSEFLOAT(n)
+}
